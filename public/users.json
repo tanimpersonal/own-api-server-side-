@@ -1,18 +1,1 @@
-[
-  {
-    "id": 1,
-    "gender": "male",
-    "name": "Karim",
-    "contact": "0153xxxxx",
-    "address": "Dhaka",
-    "photoUrl": "https://img.lemde.fr/2022/10/17/52/0/4282/2141/768/384/75/0/1a6de83_1666000793283-gettyimages-1239941900.jpg"
-  },
-  {
-    "id": 2,
-    "gender": "male",
-    "name": "Rahim",
-    "contact": "0153xxxxx",
-    "address": "Dhaka",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mushfiqur_Rahim_2018_%28cropped%29.jpg"
-  }
-]
+[{"id":1,"gender":"male","name":"Karim","contact":"0153xxxxx","address":"Dhaka","photoUrl":"https://img.lemde.fr/2022/10/17/52/0/4282/2141/768/384/75/0/1a6de83_1666000793283-gettyimages-1239941900.jpg"},{"id":2,"gender":"male","name":"Rahim","contact":"0153xxxxx","address":"Dhaka","photoUrl":"https://upload.wikimedia.org/wikipedia/commons/e/e4/Mushfiqur_Rahim_2018_%28cropped%29.jpg"},{"id":"6","gender":"hola","name":"name","contact":"contact","address":"address","photoUrl":"photo-url"},{"id":"9","gender":"male","name":"Tanim Istiak","contact":"01537033","address":"bangladesh","photoUrl":"https://farm4.static.flickr.com/3221/2658147888_826edc8465.jpg"}]
