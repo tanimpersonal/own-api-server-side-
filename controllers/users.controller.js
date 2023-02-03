@@ -4,15 +4,14 @@ module.exports.getUsers = (req, res, next) => {
   res.header("Content-Type", "application/json");
   res.json(data);
 };
-module.exports.randomUser = (req, res, next) => {
-  const datas = require("../public/users.json");
+module.exports.randomUser = async (req, res, next) => {
+  const datas = await require("../public/users.json");
   res.header("Content-Type", "application/json");
   const params = req.params;
   const { id } = params;
-  const randomItem = datas.find((data) => data.id == id);
+  const randomItem = await datas.find((data) => data.id == id);
   console.log(randomItem);
-  res.json(randomItem);
-  res.end();
+  await res.json(randomItem);
 };
 module.exports.saveUser = (req, res, next) => {
   const receivedData = req.body;
@@ -24,5 +23,24 @@ module.exports.saveUser = (req, res, next) => {
     if (err) throw err;
     console.log("File Saved");
   });
-  console.log(dataArray);
 };
+module.exports.patchUser = (req, res, next) => {
+  const data = require("../public/users.json");
+  const { id, gender, name, contact, address, photoUrl } = req.body;
+  const matchData = data.find((data) => data.id == id);
+  const deleteData = data.filter((data) => data.id != id);
+  matchData.id = id;
+  matchData.gender = gender;
+  matchData.name = name;
+  matchData.contact = contact;
+  matchData.address = address;
+  matchData.photoUrl = photoUrl;
+  deleteData.push(matchData);
+  fs.writeFileSync("public/users.json", JSON.stringify(deleteData), (err) => {
+    if (err) throw err;
+    console.log("File Saved");
+  });
+  console.log(deleteData);
+  // console.log(req.body);
+};
+module.exports.deleteUser = (req, res, next) => {};
