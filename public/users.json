@@ -1,1 +1,74 @@
-[{"id":1,"gender":"male","name":"Karim","contact":"0153xxxxx","address":"Dhaka","photoUrl":"https://img.lemde.fr/2022/10/17/52/0/4282/2141/768/384/75/0/1a6de83_1666000793283-gettyimages-1239941900.jpg"},{"id":"9","gender":"male","name":"Tanim Istiak","contact":"01537033","address":"bangladesh","photoUrl":"https://farm4.static.flickr.com/3221/2658147888_826edc8465.jpg"},{"id":"2","gender":"male","name":"Rahima","contact":"0153xxxxx","address":"Dhaka","photoUrl":"https://media.npr.org/assets/img/2022/05/18/rahima-banu-and-her-mother-2022-1--230e7d9d0acec55270f5996f8076bab65fcd1342.jpg"},{"id":"6","gender":"Male","name":"Tom","contact":"015656465","address":"Bangladesh","photoUrl":"https://i.pinimg.com/736x/aa/2e/f0/aa2ef0ac37db19de28da92aa1b297ca6.jpg"},{"id":"10","gender":"Male","name":"Jerry","contact":"01786784443","address":"USA","photoUrl":"https://drawinghowtos.com/wp-content/uploads/2021/11/Jerry-colored.png"},{"id":"12","gender":"Male","name":"Hank","contact":"01786876784","address":"Canada","photoUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Hank_Schrader_S5B.png/220px-Hank_Schrader_S5B.png"},{"id":"16","gender":"Female","name":"Robbie","contact":"0178897868374","address":"Australia","photoUrl":"https://cdn.britannica.com/32/201632-050-66971649/actress-Margot-Robbie-Australian-2018.jpg"},{"id":"98","gender":"Female","name":"Clarke","contact":"01788876784","address":"Hollywood","photoUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Emilia_Clarke_Dior_Rose_des_Vents.jpg/800px-Emilia_Clarke_Dior_Rose_des_Vents.jpg"},{"id":"41","gender":"Female","name":"Turner","contact":"018978974","address":"USA","photoUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sophie_Turner_%2840553145603%29_%28cropped%29.jpg/1200px-Sophie_Turner_%2840553145603%29_%28cropped%29.jpg"}]
+[
+  {
+    "id": 1,
+    "gender": "male",
+    "name": "Karim",
+    "contact": "0153xxxxx",
+    "address": "Dhaka",
+    "photoUrl": "https://img.lemde.fr/2022/10/17/52/0/4282/2141/768/384/75/0/1a6de83_1666000793283-gettyimages-1239941900.jpg"
+  },
+  {
+    "id": "9",
+    "gender": "male",
+    "name": "Tanim Istiak",
+    "contact": "01537033",
+    "address": "bangladesh",
+    "photoUrl": "https://farm4.static.flickr.com/3221/2658147888_826edc8465.jpg"
+  },
+  {
+    "id": "2",
+    "gender": "male",
+    "name": "Rahima",
+    "contact": "0153xxxxx",
+    "address": "Dhaka",
+    "photoUrl": "https://media.npr.org/assets/img/2022/05/18/rahima-banu-and-her-mother-2022-1--230e7d9d0acec55270f5996f8076bab65fcd1342.jpg"
+  },
+  {
+    "id": "6",
+    "gender": "Male",
+    "name": "Tom",
+    "contact": "015656465",
+    "address": "Bangladesh",
+    "photoUrl": "https://i.pinimg.com/736x/aa/2e/f0/aa2ef0ac37db19de28da92aa1b297ca6.jpg"
+  },
+  {
+    "id": "10",
+    "gender": "Male",
+    "name": "Jerry",
+    "contact": "01786784443",
+    "address": "USA",
+    "photoUrl": "https://drawinghowtos.com/wp-content/uploads/2021/11/Jerry-colored.png"
+  },
+  {
+    "id": "12",
+    "gender": "Male",
+    "name": "Hank",
+    "contact": "01786876784",
+    "address": "Canada",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Hank_Schrader_S5B.png/220px-Hank_Schrader_S5B.png"
+  },
+  {
+    "id": "16",
+    "gender": "Female",
+    "name": "Robbie",
+    "contact": "0178897868374",
+    "address": "Australia",
+    "photoUrl": "https://cdn.britannica.com/32/201632-050-66971649/actress-Margot-Robbie-Australian-2018.jpg"
+  },
+  {
+    "id": "98",
+    "gender": "Female",
+    "name": "Clarke",
+    "contact": "01788876784",
+    "address": "Hollywood",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Emilia_Clarke_Dior_Rose_des_Vents.jpg/800px-Emilia_Clarke_Dior_Rose_des_Vents.jpg"
+  },
+  {
+    "id": "41",
+    "gender": "Female",
+    "name": "Turner",
+    "contact": "018978974",
+    "address": "USA",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sophie_Turner_%2840553145603%29_%28cropped%29.jpg/1200px-Sophie_Turner_%2840553145603%29_%28cropped%29.jpg"
+  }
+]

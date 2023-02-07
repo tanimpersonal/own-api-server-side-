@@ -1,8 +1,10 @@
 const fs = require("fs");
 module.exports.getUsers = (req, res, next) => {
   const data = require("../public/users.json");
-  res.header("Content-Type", "application/json");
-  res.json(data);
+  // res.header("Content-Type", "application/json");
+  // res.json({ msg: "This is CORS-enabled for all origins!" });
+  // res.json(data, { msg: "This is CORS-enabled for all origins!" });
+  res.status(200).json(data);
 };
 module.exports.randomUser = async (req, res, next) => {
   const datas = await require("../public/users.json");
@@ -23,6 +25,7 @@ module.exports.saveUser = (req, res, next) => {
     if (err) throw err;
     console.log("File Saved");
   });
+  res.json({ msg: "This is CORS-enabled for all origins!" });
 };
 module.exports.patchUser = (req, res, next) => {
   const data = require("../public/users.json");
@@ -40,7 +43,18 @@ module.exports.patchUser = (req, res, next) => {
     if (err) throw err;
     console.log("File Saved");
   });
+  res.json({ msg: "This is CORS-enabled for all origins!" });
   console.log(deleteData);
   // console.log(req.body);
 };
-module.exports.deleteUser = (req, res, next) => {};
+module.exports.deleteUser = (req, res, next) => {
+  const id = req.params.id;
+  const data = require("../public/users.json");
+  console.log(id);
+  const removedData = data.filter((data) => data.id != id);
+  fs.writeFileSync("public/users.json", JSON.stringify(removedData), (err) => {
+    if (err) throw err;
+    console.log("File saved");
+  });
+  res.status(204).json({ msg: "This is CORS-enabled for all origins!" });
+};

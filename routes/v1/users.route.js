@@ -12,5 +12,5 @@ router.route("/all").get(getUsers);
 router.route("/random/:id").get(randomUser);
 router.route("/save").post(saveUser);
 router.route("/update/:id").patch(patchUser);
-router.route("/delete").delete(deleteUser);
+router.route("/delete/:id").delete(deleteUser);
 module.exports = router;
